@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "*.txx": "c",
+        "*.inc": "c",
+        "cerrno": "c",
+        "tlpi_hdr.h": "c"
+    }
+}

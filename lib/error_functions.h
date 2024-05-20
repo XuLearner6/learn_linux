@@ -6,7 +6,8 @@ void errMsg(const char *format, ...);
 #ifdef __GNUC__
 
 #define NORETURN __attribute__ ((__noreturn__))
-#else#define NORETURN
+#else
+#define NORETURN
 #endif
 
 void errExit(const char *format, ...) NORETURN;

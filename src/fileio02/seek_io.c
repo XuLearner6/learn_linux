@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
                 printf("%s: seek successed\n", argv[ap]);
                 break;
             default:
-            cmdlineErr("Argument must start with [rRws]: %s\n", argv[ap]);                
+            cmdLineErr("Argument must start with [rRws]: %s\n", argv[ap]);                
         }
     }
 
